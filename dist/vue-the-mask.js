@@ -201,9 +201,9 @@
               // Change
                 var n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2],
                     r = arguments[3];
-  
-                if(arguments[3].replace.delete.length) {
-                  arguments[3].replace.delete.map(item => e = e.replace(/\s+/g, '').replace(item, ''))
+
+                if(arguments[3]['replace'] && arguments[3]['replace'].delete.length) {
+                  arguments[3]['replace'].delete.map(item => e = e.replace(/\s+/g, '').replace(item, ''))
                 }
                 (e = e || ""), (t = t || "");
                 for (var a = 0, o = 0, i = ""; a < t.length && o < e.length; ) {
@@ -220,8 +220,8 @@
                     }
                     (f += u), a++;
                 }
-                if(arguments[3].keyCode46.find(item => item === c)) {
-                  arguments[3].keyCode46.map(item => i = i.replace(item, ''))
+                if(arguments[3]['keyCode46'] && arguments[3]['keyCode46'].find(item => item === c)) {
+                  arguments[3]['keyCode46'].map(item => i = i.replace(item, ''))
                 }
                 return i + f;
             }
@@ -265,4 +265,3 @@
         },
     ]);
   });
-  
